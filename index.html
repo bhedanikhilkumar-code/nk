@@ -7,16 +7,16 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <main class="clock-card" aria-live="polite">
+    <main class="clock-card glass card" aria-live="polite">
       <h1>Clock App</h1>
       <p id="time" class="time">--:--:--</p>
       <p id="date" class="date">Loading date…</p>
       <p id="zone" class="zone">Local time</p>
 
       <div class="controls" role="group" aria-label="Clock controls">
-        <button id="toggle-run" type="button">Pause</button>
-        <button id="toggle-format" type="button">Use 24-hour</button>
-        <button id="toggle-zone" type="button">Show UTC</button>
+        <button id="toggle-run" class="btn btn--ghost" type="button">Pause</button>
+        <button id="toggle-format" class="btn btn--ghost" type="button">Use 24-hour</button>
+        <button id="toggle-zone" class="btn btn--ghost" type="button">Show UTC</button>
       </div>
     </main>
 
